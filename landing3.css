@@ -461,6 +461,19 @@ section{
 
 
 }
+@media only screen and (max-width: 1080px) {
+  .footer {
+    top: 150%; /* Adjust the value as needed */
+  }
+}
+
+/* Samsung Galaxy Note 20 Ultra */
+@media only screen and (max-width: 1280px) {
+  .footer {
+    top: 185%; /* Adjust the value as needed */
+  }
+}
+
 body{
   background-color: #f1f4fd;
 }
