@@ -358,7 +358,7 @@ section{
 
 
   .footer {
-    top: 140%; 
+    top: 170%; 
   }
 }
 
@@ -460,4 +460,7 @@ section{
   }
 
 
+}
+body{
+  background-color: #f1f4fd;
 }
