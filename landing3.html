@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="landing3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!-- Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="landing3.js" defer></script>
+  </head>
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <div class="nav-title">
+          E-commerce
+          <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Contact us</a>
+        <a href="#">Feedback</a>
+
+      </div>
+    </div>
+    <section>
+        <div class="box">
+            <input type="text"id="searchInput" onkeyup="searchProducts()" placeholder="Search...">
+            <a>
+                <i class="fas fa-search"  ></i>
+            </a>
+        </div>
+    </section>
+    <main>
+            <div class="container">
+                <div class="slider-wrapper">
+                  <button id="prev-slide" class="slide-button material-symbols-rounded">
+                    chevron_left
+                  </button>
+                  <ul class="image-list">          
+                    <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/iphone.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>Iphone 12 pro max</h3>
+                            <h3>$430</h3>
+                            <p>Build Glass front (Corning-made glass), glass back (Corning-made glass), stainless steel frame
+                              SIM Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by) - for China
+                              IP68 dust/water resistant (up to 6m for 30 min) Apple Pay (Visa, MasterCard, AMEX certified</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/watch.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>I watch</h3>
+                            <h3>$500</h3>
+                            <p>Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/case.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>Iphone case</h3>
+                            <h3>$50</h3>
+                            <p>
+                              Phone Cases. Phone cases are protective shells that you attach to the back and sides of your device. These are available in a variety of forms, features, factors, and materials, but their purpose remains to help reduce any drop damage.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/samsong.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>Samsung galaxy s21 plus</h3>
+                            <h3>$1050</h3>
+                            <p>
+                            The Samsung Galaxy S21+ is the bigger sibling of the regular Galaxy S21. Specification wise the phone carries a Snapdragon 888 chipset, 5G capability, 128/256GB storage, and a 4800mAh battery. The 6.7-inch Dynamic AMOLED display features an adaptive 120Hz refresh rate.</p>
+                          </div>
+                        </div>
+                      </li> 
+                      <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/tissot.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>Tissot watch</h3>
+                            <h3>$600</h3>
+
+                            <p>
+                              Tissot developed the first tactile watch 20 years ago. This high-tech feature improves watch ergonomics and makes it unique and intuitive to use. The technology offers an array of functionalities ‒ compass, altimeter, weather, alarm, chronograph ‒ without an abundance of buttons or complex sub-menus.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/mouse.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>Mouse gaming</h3>
+                            <h3>$100</h3>
+
+                            <p>
+                              A gaming mouse is a mouse that's specifically designed for computer (PC ) gaming. These high performance mice are built to give you added speed and precision, as well as additional mappable buttons that you can use to </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/mac.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>Macbook</h3>
+                            <h3>$800</h3>
+
+                            <p>Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/dell.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>Dell laptop</h3>
+                            <h3>$750</h3>
+
+                            <p>
+                              Dell G3 15 3579 is a Windows 10 laptop with a 15.60-inch display. It is powered by a Core i7 processor and it comes with 8GB of RAM. The Dell G3 15 3579 packs 128GB of SSD storage. Connectivity options include Wi-Fi 802.11 ac.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="image-container">
+                        <div class="card">
+                          <!-- Your image goes here -->
+                          <img class="image-item" src="img/heads.avif" alt="img-1" />
+                          <!-- Card content -->
+                          <div class="card-content">
+                            <h3>Headphone</h3>
+                            <h3>$90</h3>
+                            <p>
+                              Headphones are a pair of small loudspeaker drivers worn on or around the head over a user's ears. They are electroacoustic transducers, which convert an electrical signal to a corresponding sound.</p>
+                          </div>
+                        </div>
+                      </li>
+                  </ul>
+                  <button id="next-slide" class="slide-button material-symbols-rounded">
+                    chevron_right
+                  </button>
+                </div>
+                <div class="slider-scrollbar">
+                  <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                  </div>
+                </div>
+              </div>
+
+              <section class="footer">
+                <div class="footer-row">
+                  <div class="footer-col">
+                    <h4>Info</h4>
+                    <ul class="links">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Compressions</a></li>
+                      <li><a href="#">Customers</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">Collection</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="links">
+                      <li><a href="#">Customer Agreement</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">GDPR</a></li>
+                      <li><a href="#">Security</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                      <li><a href="#">Media Kit</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>
+                      Subscribe to our newsletter for a weekly dose
+                      of news, updates, helpful tips, and
+                      exclusive offers.
+                    </p>
+                    <form action="#">
+                      <input type="text" placeholder="Your email" required>
+                      <button type="submit">SUBSCRIBE</button>
+                    </form>
+                    <div class="icons">
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                      <i class="fa-brands fa-github"></i>
+                    </div>
+                  </div>
+                </div>
+              </section>
+    </main>
+  </body>
+</html>
