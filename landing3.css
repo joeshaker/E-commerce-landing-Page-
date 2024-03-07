@@ -465,11 +465,33 @@ section{
   .footer {
     top: 150%; 
   }
+
+  .box {
+    position: absolute;
+    top: 45px;
+    z-index: 3; 
+  }
+
+  
+  .box:hover input {
+    width: 300px; 
+  }
 }
 
 @media only screen and (max-width: 1280px) {
   .footer {
     top: 185%; 
+  }
+
+  .box {
+    position: absolute;
+    top: 45px;
+    z-index: 3; 
+  }
+
+  
+  .box:hover input {
+    width: 300px; 
   }
 }
 
